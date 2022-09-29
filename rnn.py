@@ -42,8 +42,7 @@ lr = 0.001
 epochs = 25
 n_input = 28
 n_output = 10
-n_hidden = 128
-
+n_hidden = 100
 rnn = RNN(n_input, n_hidden, n_output).to(device)
 
 criterion = nn.CrossEntropyLoss()  # 交叉熵损失函数
